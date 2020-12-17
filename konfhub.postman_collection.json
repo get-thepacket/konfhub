@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "e496cc9b-aa8f-40bb-be4a-d753d270ee6e",
+		"name": "konfhub",
+		"description": "api endpoints to test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "all conferences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/allConferences/rawAll",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"allConferences",
+						"rawAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "paid conferences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/allConferences/paid",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"allConferences",
+						"paid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "free conferences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/allConferences/free",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"allConferences",
+						"free"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "duplicate conferences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/allConferences/duplicates",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"allConferences",
+						"duplicates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "unique conferences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/allConferences/unique",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"allConferences",
+						"unique"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "in human readable form",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
