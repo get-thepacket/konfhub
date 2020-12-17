@@ -4,9 +4,17 @@
 
 1. clone this repo.
 2. change directory to the base directory of the repo.
-3. `npm i` or `yarn`
+3. ```sh
+   $ npm i
+   ```
+   OR
+   ```sh
+   $ yarn
+   ```
 4. After the node modules are installed<br>
-   `npm start`
+   ```sh 
+   $ npm start
+   ```
 
 ### Test with postman
 
